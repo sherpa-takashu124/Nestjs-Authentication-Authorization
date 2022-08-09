@@ -24,13 +24,23 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
+simple Jwt authentication with claim based authorization.
+# instruction
+# Installation
 
 ```bash
 $ npm install
+$ npm run start:dev
 ```
+```bash
+$ npx prisma migrate dev
+$ npx prisma seed
+$ npx prisma studio
+```
+
+![alt text](https://github.com/sherpa-takashu124/Nestjs-Authentication-Authorization/blob/master/Untitled%20Diagram.drawio.png?raw=true)
+
+
 
 ## Running the app
 
@@ -43,19 +53,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
